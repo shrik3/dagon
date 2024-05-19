@@ -38,7 +38,8 @@ set background=light
 
 " generic items
 hi Normal       guifg=#000000    guibg=#C6C6C6     gui=NONE         ctermfg=0   ctermbg=251 cterm=NONE
-hi NormalBold   guifg=#000000                      gui=BOLD         ctermfg=0               cterm=BOLD
+hi Text         guifg=#000000                      gui=NONE         ctermfg=0               cterm=NONE
+hi TextBold     guifg=#000000                      gui=BOLD         ctermfg=0               cterm=BOLD
 hi Bright       guifg=#000066                      gui=NONE         ctermfg=17              cterm=NONE
 hi BrightBold   guifg=#000066                      gui=BOLD         ctermfg=17              cterm=BOLD
 hi Inverted     guifg=#000000    guibg=#C6C6C6     gui=REVERSE      ctermfg=0   ctermbg=251 cterm=REVERSE
@@ -70,18 +71,19 @@ highlight! link Search          Inverted
 highlight! link Visual          Inverted
 highlight! link VisualNOS       Inverted
 highlight! link LineNr          Dimmed_1
-highlight! link Pmenu           NormalBold
+highlight! link Pmenu           TextBold
 highlight! link PmenuSel        Dimmed_2
 highlight! link PmenuThumb      Dimmed_2
 highlight! link PmenuSbar       Dimmed_2
 
-"" (syntax) highlighting ... highlight! link Type            Normal
-highlight! link Constant        Normal
-highlight! link Function        Normal
-highlight! link Operator        Normal
-highlight! link StorageClass    NormalBold
-highlight! link Statement       NormalBold
-highlight! link Structure       NormalBold
+"" (syntax) highlighting ...
+highlight! link Type            Text
+highlight! link Constant        Text
+highlight! link Function        Text
+highlight! link Operator        Text
+highlight! link StorageClass    TextBold
+highlight! link Statement       TextBold
+highlight! link Structure       TextBold
 highlight! link Repeat          BrightBold
 highlight! link Conditional     BrightBold
 highlight! link MatchParen      BrightBold
@@ -113,13 +115,13 @@ highlight! link StatusLineNC    Dimmed_2
 highlight! link Special         Dimmed_2
 highlight! link SpecialKey      Dimmed_2
 "" for plugins
-highlight! link NeoTreeTitleBar                 Normal
-highlight! link NeoTreeNormalNC                 Normal
-highlight! link NeoTreeNormal                   Normal
-highlight! link StatusLine                      Normal
+highlight! link NeoTreeTitleBar                 Text
+highlight! link NeoTreeNormalNC                 Text
+highlight! link NeoTreeNormal                   Text
+highlight! link StatusLine                      Text
 highlight! link MiniTablineCurrent              Bright
 highlight! link MiniTablineModifiedVisible      Warning
 highlight! link MiniTablineModifiedCurrent      BrightBold
-highlight! link MiniTablineVisible              Normal
-highlight! link MiniTablineHidden               Normal
+highlight! link MiniTablineVisible              Text
+highlight! link MiniTablineHidden               Text
 highlight! link MiniTablineModifiedHidden       Warning
