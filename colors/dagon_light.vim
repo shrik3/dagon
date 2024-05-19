@@ -33,11 +33,11 @@ let g:colors_name = "dagon_light"
 set background=light
 " generic items
 hi Normal       guifg=#000000    guibg=#C6C6C6     gui=NONE         ctermfg=0   ctermbg=251 cterm=NONE
+hi Inverted     guifg=#000000    guibg=#C6C6C6     gui=REVERSE      ctermfg=0   ctermbg=251 cterm=REVERSE
 hi Text         guifg=#000000                      gui=NONE         ctermfg=0               cterm=NONE
 hi TextBold     guifg=#000000                      gui=BOLD         ctermfg=0               cterm=BOLD
 hi Bright       guifg=#000066                      gui=NONE         ctermfg=17              cterm=NONE
 hi BrightBold   guifg=#000066                      gui=BOLD         ctermfg=17              cterm=BOLD
-hi Inverted     guifg=#000000    guibg=#C6C6C6     gui=REVERSE      ctermfg=0   ctermbg=251 cterm=REVERSE
 hi Dimmed1      guifg=#333333                      gui=NONE         ctermfg=236             cterm=NONE
 hi Dimmed2      guifg=#666666                      gui=NONE         ctermfg=241             cterm=NONE
 hi TextAlt1     guifg=#111111                      gui=NONE         ctermfg=233             cterm=NONE
