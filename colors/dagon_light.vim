@@ -38,20 +38,20 @@ set background=light
 
 " generic items
 hi Normal       guifg=#000000    guibg=#C6C6C6     gui=NONE         ctermfg=0   ctermbg=251 cterm=NONE
-hi NormalBold   guifg=#000000    guibg=#C6C6C6     gui=BOLD         ctermfg=0   ctermbg=251 cterm=BOLD
-hi Bright       guifg=#000066    guibg=#C6C6C6     gui=NONE         ctermfg=17  ctermbg=11  cterm=NONE
-hi BrightBold   guifg=#000066    guibg=#C6C6C6     gui=BOLD         ctermfg=17  ctermbg=251 cterm=BOLD
+hi NormalBold   guifg=#000000                      gui=BOLD         ctermfg=0               cterm=BOLD
+hi Bright       guifg=#000066                      gui=NONE         ctermfg=17              cterm=NONE
+hi BrightBold   guifg=#000066                      gui=BOLD         ctermfg=17              cterm=BOLD
 hi Inverted     guifg=#000000    guibg=#C6C6C6     gui=REVERSE      ctermfg=0   ctermbg=251 cterm=REVERSE
-hi Dimmed_1     guifg=#333333    guibg=#C6C6C6     gui=NONE         ctermfg=236 ctermbg=251 cterm=NONE
-hi Dimmed_2     guifg=#666666    guibg=#C6C6C6     gui=NONE         ctermfg=241 ctermbg=251 cterm=NONE
-hi Text_1       guifg=#111111    guibg=#C6C6C6     gui=NONE         ctermfg=233 ctermbg=251 cterm=NONE
-hi Text_2       guifg=#666666    guibg=#C6C6C6     gui=NONE         ctermfg=241 ctermbg=251 cterm=NONE
-hi Warning      guifg=#FF0000    guibg=#C6C6C6     gui=NONE         ctermfg=196 ctermbg=204 cterm=NONE
+hi Dimmed_1     guifg=#333333                      gui=NONE         ctermfg=236             cterm=NONE
+hi Dimmed_2     guifg=#666666                      gui=NONE         ctermfg=241             cterm=NONE
+hi Text_1       guifg=#111111                      gui=NONE         ctermfg=233             cterm=NONE
+hi Text_2       guifg=#666666                      gui=NONE         ctermfg=241             cterm=NONE
+hi Warning      guifg=#FF0000                      gui=NONE         ctermfg=196             cterm=NONE
 " some special ones
-hi String       guifg=#424242    guibg=#C6C6C6     gui=NONE         ctermfg=238 ctermbg=251 cterm=NONE
+hi String       guifg=#424242                      gui=NONE         ctermfg=238             cterm=NONE
 hi Folded       guifg=#000000    guibg=#A6A6A6     gui=NONE         ctermfg=0   ctermbg=248 cterm=NONE
 hi Underlined                                      gui=UNDERLINE                            cterm=UNDERLINE
-hi Error        guifg=#FF0000    guibg=#C6C6C6     gui=UNDERLINE    ctermfg=204 ctermbg=251 cterm=UNDERLINE
+hi Error        guifg=#FF0000                      gui=UNDERLINE    ctermfg=204             cterm=UNDERLINE
 "" UI items
 hi SignColumn   guifg=#00bbff    guibg=#C6C6C6     gui=NONE         ctermfg=39  ctermbg=251 cterm=NONE
 hi FoldColumn   guifg=#00bbff    guibg=#C6C6C6     gui=NONE         ctermfg=39  ctermbg=251 cterm=NONE

@@ -40,24 +40,25 @@ set background=dark
 
 " generic items
 hi Normal       guifg=#00D56D    guibg=#000000     gui=NONE         ctermfg=41  ctermbg=0   cterm=NONE
-hi NormalBold   guifg=#00D56D    guibg=#000000     gui=BOLD         ctermfg=41  ctermbg=0   cterm=BOLD
-hi Bright       guifg=#FFFF00    guibg=#000000     gui=NONE         ctermfg=11  ctermbg=0   cterm=NONE
-hi BrightBold   guifg=#FFFF00    guibg=#000000     gui=BOLD         ctermfg=11  ctermbg=0   cterm=BOLD
+hi Bright       guifg=#FFFF00                      gui=NONE         ctermfg=11              cterm=NONE
+hi BrightBold   guifg=#FFFF00                      gui=BOLD         ctermfg=11              cterm=BOLD
 hi Inverted     guifg=#00D56D    guibg=#000000     gui=REVERSE      ctermfg=41  ctermbg=0   cterm=REVERSE
-hi Dimmed_1     guifg=#888888    guibg=#000000     gui=NONE         ctermfg=102 ctermbg=0   cterm=NONE
-hi Dimmed_2     guifg=#C6C6C6    guibg=#000000     gui=NONE         ctermfg=251 ctermbg=0   cterm=NONE
-hi Text_1       guifg=#FFFFFF    guibg=#000000     gui=NONE         ctermfg=15  ctermbg=0   cterm=NONE
-hi Text_2       guifg=#00FFFF    guibg=#000000     gui=NONE         ctermfg=14  ctermbg=0   cterm=NONE
+hi Dimmed_1     guifg=#888888                      gui=NONE         ctermfg=102             cterm=NONE
+hi Dimmed_2     guifg=#C6C6C6                      gui=NONE         ctermfg=251             cterm=NONE
+hi Text         guifg=#00D56D                      gui=NONE         ctermfg=41              cterm=NONE
+hi Text_bold    guifg=#00D56D                      gui=BOLD         ctermfg=41              cterm=BOLD
+hi Text_1       guifg=#FFFFFF                      gui=NONE         ctermfg=15              cterm=NONE
+hi Text_2       guifg=#00FFFF                      gui=NONE         ctermfg=14              cterm=NONE
 hi Warning      guifg=#FFFF00    guibg=#FF0000     gui=NONE         ctermfg=11  ctermbg=204 cterm=NONE
 " some special ones
-hi String       guifg=#00D700    guibg=#000000     gui=NONE         ctermfg=40  ctermbg=0   cterm=NONE
+hi String       guifg=#00D700                      gui=NONE         ctermfg=40              cterm=NONE
 hi Folded       guifg=#FFFFFF    guibg=#000022     gui=NONE         ctermfg=15  ctermbg=6   cterm=NONE
 hi Underlined                                      gui=UNDERLINE                            cterm=UNDERLINE
-hi Error        guifg=#ff0000    guibg=#000000     gui=UNDERLINE    ctermfg=204 ctermbg=0   cterm=UNDERLINE
+hi Error        guifg=#ff0000                      gui=UNDERLINE    ctermfg=204             cterm=UNDERLINE
 "" UI items
 hi SignColumn   guifg=#ffffff    guibg=#000000     gui=NONE         ctermfg=15  ctermbg=0   cterm=NONE
 hi FoldColumn   guifg=#ffffff    guibg=#000000     gui=NONE         ctermfg=15  ctermbg=0   cterm=NONE
-hi CursorLine                    guibg=#000022                      ctermbg=235
+hi CursorLine                    guibg=#003333                      ctermbg=235
 hi CursorColumn                  guibg=#000022                      ctermbg=235
 hi ColorColumn                   guibg=#000022                      ctermfg=17  ctermbg=17
 "" for git diffs
@@ -78,10 +79,10 @@ highlight! link PmenuThumb      Dimmed_2
 highlight! link PmenuSbar       Dimmed_2
 
 "" (syntax) highlighting ...
-highlight! link Type            Normal
-highlight! link Constant        Normal
-highlight! link Function        Normal
-highlight! link Operator        Normal
+highlight! link Type            Text
+highlight! link Constant        Text
+highlight! link Function        Text
+highlight! link Operator        Text
 highlight! link StorageClass    NormalBold
 highlight! link Statement       NormalBold
 highlight! link Structure       NormalBold
