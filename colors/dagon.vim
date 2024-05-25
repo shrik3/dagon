@@ -105,17 +105,16 @@ highlight! link RubySymbol      Dimmed2
 highlight! link NonText         Dimmed2
 highlight! link TabLineSel      Dimmed2
 highlight! link TypeDef         Dimmed2
-highlight! link StatusLine      Dimmed2
+highlight! link StatusLine      Inverted
+highlight! link StatusLineNC    Dimmed2
 highlight! link cucumberTags    Dimmed2
 highlight! link htmlTagN        Dimmed2
-highlight! link StatusLineNC    Dimmed2
 highlight! link Special         Dimmed2
 highlight! link SpecialKey      Dimmed2
 "" for plugins
 highlight! link NeoTreeTitleBar                 Text
 highlight! link NeoTreeNormalNC                 Text
 highlight! link NeoTreeNormal                   Text
-highlight! link StatusLine                      Text
 highlight! link MiniTablineCurrent              Bright
 highlight! link MiniTablineModifiedVisible      Warning
 highlight! link MiniTablineModifiedCurrent      BrightBold
