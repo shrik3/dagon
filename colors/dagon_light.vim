@@ -66,8 +66,8 @@ highlight! link Search          Inverted
 highlight! link Visual          Inverted
 highlight! link VisualNOS       Inverted
 highlight! link LineNr          Dimmed1
-highlight! link Pmenu           TextBold
-highlight! link PmenuSel        Dimmed2
+highlight! link Pmenu           Text
+highlight! link PmenuSel        Inverted
 highlight! link PmenuThumb      Dimmed2
 highlight! link PmenuSbar       Dimmed2
 "" (syntax) highlighting ...
