@@ -119,3 +119,7 @@ highlight! link MiniTablineModifiedCurrent      BrightBold
 highlight! link MiniTablineVisible              Text
 highlight! link MiniTablineHidden               Text
 highlight! link MiniTablineModifiedHidden       Warning
+"" for gitsigns
+highlight! link GitSignsAdd                     Bright
+highlight! link GitSignsChange                  Bright
+highlight! link GitSignsDelete                  Bright
