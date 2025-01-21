@@ -42,6 +42,7 @@ hi Bright       guifg=#FFFF00                      gui=NONE         ctermfg=11  
 hi BrightBold   guifg=#FFFF00                      gui=BOLD         ctermfg=11              cterm=BOLD
 hi Dimmed1      guifg=#888888                      gui=NONE         ctermfg=102             cterm=NONE
 hi Dimmed2      guifg=#C6C6C6                      gui=NONE         ctermfg=251             cterm=NONE
+hi DimmedInverted guifg=#888888 guibg=#000000      gui=REVERSE      ctermfg=251 ctermbg=0   cterm=REVERSE
 hi Text         guifg=#00D56D                      gui=NONE         ctermfg=41              cterm=NONE
 hi TextBold     guifg=#00D56D                      gui=BOLD         ctermfg=41              cterm=BOLD
 hi TextAlt1     guifg=#FFFFFF                      gui=NONE         ctermfg=14              cterm=NONE
@@ -106,7 +107,7 @@ highlight! link NonText         Dimmed2
 highlight! link TabLineSel      Dimmed2
 highlight! link TypeDef         Dimmed2
 highlight! link StatusLine      Inverted
-highlight! link StatusLineNC    Dimmed2
+highlight! link StatusLineNC    DimmedInverted
 highlight! link cucumberTags    Dimmed2
 highlight! link htmlTagN        Dimmed2
 highlight! link Special         Dimmed2
