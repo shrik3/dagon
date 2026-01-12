@@ -50,7 +50,6 @@ hi TextAlt2     guifg=#00FFFF                      gui=NONE         ctermfg=14  
 " some special ones
 hi Folded       guifg=#FFFFFF    guibg=#000022     gui=NONE         ctermfg=15  ctermbg=6   cterm=NONE
 hi Error        guifg=#ff0000                      gui=UNDERLINE    ctermfg=204             cterm=UNDERLINE
-hi Warning      guifg=#00D56D    guibg=NONE        gui=UNDERCURL    ctermfg=41  ctermbg=0   cterm=UNDERLINE
 hi String       guifg=#00D700                      gui=NONE         ctermfg=40              cterm=NONE
 hi Underlined                                      gui=UNDERLINE                            cterm=UNDERLINE
 "" UI items
@@ -64,6 +63,13 @@ hi DiffChange   guifg=#FFFFFF    guibg=#000022     ctermfg=15       ctermbg=53
 hi DiffAdd      guifg=#00d56d    guibg=#000022     ctermfg=41       ctermbg=53
 hi DiffText     guifg=#000000    guibg=#00cccc     ctermfg=0        ctermbg=44
 hi DiffDelete   guifg=#FF0000    guibg=#000022     ctermfg=204      ctermbg=0
+" Spell Checker
+hi SpellError   guifg=#00D56D    guibg=NONE        gui=UNDERCURL    ctermfg=41  ctermbg=0   cterm=UNDERLINE
+
+" derived highlights:
+highlight! link SpellBad        SpellError
+highlight! link SpellCap        SpellError
+highlight! link SpellRare       SpellError
 "" UI items link
 highlight! link Cursor          Inverted
 highlight! link IncSearch       Inverted
@@ -127,7 +133,3 @@ highlight! link MiniTablineModifiedHidden       Warning
 highlight! link GitSignsAdd                     Bright
 highlight! link GitSignsChange                  Bright
 highlight! link GitSignsDelete                  Bright
-"" for spell checking
-highlight! link hl-SpellBad                     Warning
-highlight! link hl-Cap                          Warning
-highlight! link hl-Check                        Warning
