@@ -35,7 +35,7 @@ set background=dark
 "" Amber:  #00d56d
 "" SpringGreen3 41 #00d75f
 " generic items
-hi Normal       guifg=#00D56D    guibg=#000000     gui=NONE         ctermfg=41  ctermbg=0   cterm=NONE
+hi Normal       guifg=#00D56D    guibg=NONE        gui=NONE         ctermfg=41  ctermbg=0   cterm=NONE
 hi Inverted     guifg=#00D56D    guibg=#000000     gui=REVERSE      ctermfg=41  ctermbg=0   cterm=REVERSE
 hi Warning      guifg=#FFFF00    guibg=#FF0000     gui=NONE         ctermfg=11  ctermbg=204 cterm=NONE
 hi Bright       guifg=#FFFF00                      gui=NONE         ctermfg=11              cterm=NONE
@@ -50,6 +50,7 @@ hi TextAlt2     guifg=#00FFFF                      gui=NONE         ctermfg=14  
 " some special ones
 hi Folded       guifg=#FFFFFF    guibg=#000022     gui=NONE         ctermfg=15  ctermbg=6   cterm=NONE
 hi Error        guifg=#ff0000                      gui=UNDERLINE    ctermfg=204             cterm=UNDERLINE
+hi Warning      guifg=#00D56D    guibg=NONE        gui=UNDERCURL    ctermfg=41  ctermbg=0   cterm=UNDERLINE
 hi String       guifg=#00D700                      gui=NONE         ctermfg=40              cterm=NONE
 hi Underlined                                      gui=UNDERLINE                            cterm=UNDERLINE
 "" UI items
@@ -123,7 +124,10 @@ highlight! link MiniTablineVisible              Text
 highlight! link MiniTablineHidden               Text
 highlight! link MiniTablineModifiedHidden       Warning
 "" for gitsigns
-
 highlight! link GitSignsAdd                     Bright
 highlight! link GitSignsChange                  Bright
 highlight! link GitSignsDelete                  Bright
+"" for spell checking
+highlight! link hl-SpellBad                     Warning
+highlight! link hl-Cap                          Warning
+highlight! link hl-Check                        Warning
