@@ -59,8 +59,8 @@ hi CursorLine                    guibg=#003333                      ctermbg=235
 hi CursorColumn                  guibg=#000022                      ctermbg=235
 hi ColorColumn                   guibg=#000022                      ctermfg=17  ctermbg=17
 "" for git diffs
-hi DiffChange   guifg=#FFFFFF    guibg=#000022     ctermfg=15       ctermbg=53
-hi DiffAdd      guifg=#00d56d    guibg=#000022     ctermfg=41       ctermbg=53
+hi DiffChange                    guibg=#000022     ctermfg=15       ctermbg=53
+hi DiffAdd                       guibg=#000022     ctermfg=41       ctermbg=53
 hi DiffText     guifg=#000000    guibg=#00cccc     ctermfg=0        ctermbg=44
 hi DiffDelete   guifg=#FF0000    guibg=#000022     ctermfg=204      ctermbg=0
 " Spell Checker
